@@ -3,6 +3,6 @@ import React from 'react'
 import { render } from 'react-dom'
 
 render(
-  <div>A</div>,
+  <div>ABC</div>,
   document.getElementById('root')
 )
