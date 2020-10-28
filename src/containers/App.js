@@ -36,7 +36,7 @@ const App = props => {
       />
       <Switch>
         <Route exact path="/">
-          <Redirect to="/cv" />
+          <Redirect to="/resume" />
         </Route>
         <Route path="/:id" exact children={<Content theme={theme} />} />
       </Switch>
