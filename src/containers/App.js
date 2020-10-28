@@ -38,7 +38,7 @@ const App = props => {
         <Route exact path="/">
           <Redirect to="/resume" />
         </Route>
-        <Route path="/:id" exact children={<Content theme={theme} />} />
+        <Route path={'/:id'} exact children={<Content theme={theme} />} />
       </Switch>
       <Footer
         theme={theme}
